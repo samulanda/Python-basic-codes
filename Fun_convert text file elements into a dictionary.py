@@ -9,6 +9,10 @@ Created on Thu Jun  7 14:20:59 2018
 #unas cuatro cifras (calificaciones), asociadas a cada uno de ellos. el diccionario que se genera tiene como
 #keys los nombres y los values son las calificaciones
 
+#Function that creates a dictionary from a text file. The file contains names of people and about four digits 
+#(qualifications), associated with each of them. the dictionary that is generated has the names as keys and the 
+#values are the qualifications
+
 def dic_arch(test_python):#def de funcion que acepta un archivo de texto como entrada, con los nombres de 
                           #de personas y sus calificaciones en 4 cursos
     archivo= open(test_python, "r")#preparar el archivo para ser leido ("r")
