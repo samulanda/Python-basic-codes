@@ -11,6 +11,12 @@ Created on Sun Jul 29 13:13:01 2018
 #los restantes equivale al 25% de la nota.- Las asignaciones son 4, se retira la de peor nota y el promedio
 #de las 3 restantes equivalen al 25%.- El mindertm y el final valen 25% cada una. - El alumno pasa con >=60%
 
+#Function that takes a text file with the students' scores of a complete subject, quizzes, assignments
+#midterm and final exam and create a dictionary with the name of each student and whether or not they passed the subject,
+#Taking certain criteria:- The quizzes are 6 quizzes, the two with the worst grades are removed and the average
+#the rest are equivalent to 25% of the grade.- There are 4 assignments, the one with the worst grade and the average are withdrawn
+#of the remaining 3 are equal to 25%.- The mindertm and the last examn are worth 25% each. - The student passes with >=60% 
+
 def my_final_grade_calculation(file_name):#funcion que acepta un archivo de texto
     abrir=open(file_name,'r')#abrir el archivo
     arch=abrir.readlines()#crear una lista 2D cuyas filas son cadenas de caracteres de las lineas del archivo
