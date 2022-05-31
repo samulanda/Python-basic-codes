@@ -8,6 +8,8 @@ Created on Thu Jun  7 14:20:59 2018
 #Funcion que lee un archivo de texto externo y crea una lista con las lineas del archivo sin espacio entre
 #lineas
 
+#Function that reads an external text file and creates a list with the lines of the file without space between lines
+
 def list_from_file(file_name):#def de la funcion que acepta un archivo de texto externo
     # Make a connection to the file
     file_pointer = open(file_name, 'r')#se prepara el archivo "file_name" para ser leido (r) y se asigna a la
